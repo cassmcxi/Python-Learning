@@ -16,7 +16,7 @@ def get_choices():
 # -------------------------------------------------------------
 
 
-# this is another function with an 'if' statement --------------
+# this is another function with an 'if' statement -------------
 def check_win(player, computer):
   print()
   print()
@@ -27,7 +27,7 @@ def check_win(player, computer):
   if player == computer:
     return "It's a tie !"
   
-  
+# 'if', 'else', 'elif' statements -----------------------------
   elif player == "rock":
       if computer == "scissors":
           return "Rock smashes scissors ! .... You win ! ;)"
@@ -45,11 +45,14 @@ def check_win(player, computer):
           return "Scissors cuts paper ! .... You win ! ;)"
         else:
           return "Rock smashes scissors. Womp Womp you lose ....."
-        
-    
+ # -------------------------------------------------------------
+
+
+ # function call -----------------------------------------------
 choices = get_choices()
 result = check_win(choices["player"], choices ["computer"])
 print(result)
+# -------------------------------------------------------------
 
 
 
