@@ -13,10 +13,11 @@
 - a function doesnt HAVE to return something
 
 - you can CONCATENATE(combine) strings/strings, or strings/variables with the '+' operator
+
   ```
-  {
+  
   print("You chose " + player + ", computer chose " + computer)
-  }
+  
   ```
 
  ---
@@ -37,18 +38,16 @@
 
 ## format to 'call' your function, you can use a call to test the function as well an delete it afterwards.
 
-    ```
-    {
+    
     choices = get_choices()
     print(choices)
-    }
-    ```
+    
 
-    ```
-    {
+---
+
+
     check_win("rock", "paper")
-    }
-    ```
+ 
  -------------------------------------------------------------
 
  -------------------------------------------------------------
@@ -56,27 +55,21 @@
  - using the random library with list variables
 
     ```
-    {
     options = ["rock", "paper", "scissors"]
     computer_choice = random.options(options)
-    }
     ```
  ---
 
  - dictionary that holds keys and values
 
     ```
-    {
     dict = {"key": "value", "key": "value"}
-    }
     ```
 
 - how to select an individual key from the dictionary
   ```
-  {
     choices = {"player": "rock", "computer": "paper"}
     p_choice = choices["player"]
-  }
   ```
  ---
 
@@ -86,13 +79,13 @@
 
 - **Example:**
   ```
-  {
+  
   age = 20
   if age >= 18:
     print("You are an adult.")
   else:
     print("You are a child.")
-  }
+  
   ```
 
 - It'll print "You are an adult."
@@ -101,8 +94,9 @@
 
 - Means 'Else If'
 - **Example:**
+
+  
   ```
-  {
   age = 20
 
   if age >= 18:
@@ -113,7 +107,7 @@
     print("You are a child.")
   else:
     print("You are a baby.")
-  }
+  
   ```
 
   ### Doesn't check them all, it's finished as soon as the first 'true' is checked, then it moves on
